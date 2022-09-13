@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="timer()">
+
+    <section id="slides" onmouseover="stop()" onmouseout="timerId = setTimeout(timer,1000);">
+
+        <a id="idLink" href="https://www.google.by">
+        <img id="pic" src="images/img1b.jpg"  alt="">
+        </a>
+        <p id="webSite"></p>
+       
+
+        <div id="before" onclick="previous()"><span class="material-icons">
+            arrow_back_ios </span></div>
+
+        <div id="next" onclick="forward()"> <span class="material-icons">
+            arrow_forward_ios
+            </span> </div>
+
+        <div id="panel">
+            <h3>Заголовок слайда 1</h3>
+            <a href="#">Далеко-далеко за словесными горами в стране гласных и соголасных живут рыбные тексты 1 >></a>
+        </div>    
+
+    </section>
+
+    <script src="js/js61.js"></script>
+    
+</body>
+</html>
